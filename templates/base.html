@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>vinlotteri</title>
+
+    {% load static %}
+    <script defer src="{% static 'main.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    
+</head>
+<body>
+
+    {% include 'navbar.html' %}
+    {% block content %}
+
+    {% endblock %}
+    
+</body>
+</html>

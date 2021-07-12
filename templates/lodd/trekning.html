@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+
+
+
+<h1>trekning</h1>
+<div>
+    <button id="trekk_knapp" class="knapp"> trekk </button>
+</div>
+<div>
+    <ol id="vinner_liste">
+
+    </ol>
+
+</div>
+
+
+<div style="display: none" id="jsonData">{{ data }}</div>
+    
+
+{% endblock content %}

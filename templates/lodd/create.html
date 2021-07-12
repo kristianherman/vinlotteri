@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>legg inn lodd</h1>
+
+<form method='Post'> {% csrf_token %}
+{{ form.as_p }}
+<input type='submit' class='lagre_knapp knapp' value='lagre loddene' />
+</form>
+
+{% endblock content %}
