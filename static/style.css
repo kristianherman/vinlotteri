@@ -1,0 +1,68 @@
+
+/* -----------   navbar   ------- */ 
+nav >ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+nav > ul > li {
+    display: inline;
+    float: left;
+}
+  
+nav > ul > li >a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav > ul >  li > a:hover {
+    background-color: #111;
+}
+
+
+  /* -----------   base   ------- */ 
+
+  h1{
+    margin: auto;
+    width: 50%;
+    padding-top: 25px;
+
+  }
+
+form{
+    margin: auto;
+    width: 50%;
+    padding-top: 25px;
+
+}
+
+.knapp{
+
+    background-color: rgb(76, 148, 189);
+    color: black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+div{
+    margin: auto;
+    width: 50%;
+    padding-top: 25px;
+
+}
+#vinner_liste > li{
+    padding-left: 16px;
+    padding-top: 16px; 
+    font-size: 20px;
+
+}
